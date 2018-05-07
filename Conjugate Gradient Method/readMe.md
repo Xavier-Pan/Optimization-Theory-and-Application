@@ -23,6 +23,6 @@ OPTIONS=zeros(18,1); OPTIONS(1)= 1 ; OPTIONS(2)= 10^-4; OPTIONS(3)= 10^-6;
 OPTIONS(7)= 0; OPTIONS(14)= 1000; OPTIONS(18)= 1; 
 OPTIONS(5) = 1; x=conj_grad('grad',[-2,2]',OPTIONS)
 ```
-
-
+***
+**Result**
 ![](https://github.com/Xavier-Pan/Optimization-Theory-and-Application/blob/master/Conjugate%20Gradient%20Method/%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202018-05-07%2011.22.03.png)
