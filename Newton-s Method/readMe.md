@@ -5,6 +5,7 @@
 **OPTIONS(7)**:whether using secant method to find the best step size (1=no,0=yes)  
 **OPTIONS(14)**: max iteration (1000)  
 **OPTIONS(18)**: fixed step size (1)  
+***
 **Please implement following lines:**
 ``` Matlab
 OPTIONS=zeros(18,1); OPTIONS(1)= 1 ; OPTIONS(2)= 10^-4; OPTIONS(3)= 10^-6; OPTIONS(14)= 1000; OPTIONS(18)= 1; 
