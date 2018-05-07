@@ -1,5 +1,6 @@
 function [x,N]=conj_grad(grad,xnew,options)
 % conjugate gradient algorithm
+close
 if size(xnew,1) == 1
     xnew = xnew'; % transfer to column 
 end
