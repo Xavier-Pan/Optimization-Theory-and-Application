@@ -11,10 +11,10 @@
 **OPTIONS(7)**:whether using secant method to find the best step size (1=no,0=yes)  
 **OPTIONS(14)**: max iteration (1000)  
 **OPTIONS(18)**: fixed step size (1)  
-LM_newton_method(x_0,OPTIONS):  
+**LM_newton_method(x_0,OPTIONS)**:  
 ```
-    x_0 means initial point to start optimization  
-    OPTIONS use to pass some parameter as OPTIONS use to pass some parameter as described above.  
+    x_0: means initial point to start optimization  
+    OPTIONS: use to pass some parameter as OPTIONS use to pass some parameter as described above.  
 ```
 ***
 **Please implement following lines:**
