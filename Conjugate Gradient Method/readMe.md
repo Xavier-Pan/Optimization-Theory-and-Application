@@ -25,4 +25,4 @@ OPTIONS(5) = 1; x=conj_grad('grad',[-2,2]',OPTIONS)
 ```
 
 
-![](https://github.com/Xavier-Pan/Optimization-Theory-and-Application/blob/master/Conjugate%20Gradient%20Method/螢幕截圖 2018-05-07 11.22.03.png)
+![](https://github.com/Xavier-Pan/Optimization-Theory-and-Application/blob/master/Conjugate%20Gradient%20Method/%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202018-05-07%2011.22.03.png)
