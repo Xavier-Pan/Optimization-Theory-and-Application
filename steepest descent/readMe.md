@@ -8,6 +8,13 @@ steepest means that choose the best step size.
 **OPTIONS(14)**: max iteration (1000)  
 **OPTIONS(18)**: fixed step size (1)  
 ***
+**steep_desc('function name1',x_0,OPTIONS)**:  
+```
+    'function name1': pass a function to a function ('grad' means calculating gradient)    
+    x_0: means initial point to start optimization  
+    OPTIONS: use to pass some parameter as OPTIONS use to pass some parameter as described above.  
+```
+***
 **Please implement following lines:**
 ``` Matlab
 OPTIONS=zeros(18,1); OPTIONS(1)= 1 ; OPTIONS(2)= 10^-4; OPTIONS(3)= 10^-6;
