@@ -12,7 +12,7 @@ steepest means that choose the best step size.
 ``` Matlab
 OPTIONS=zeros(18,1); OPTIONS(1)= 1 ; OPTIONS(2)= 10^-4; OPTIONS(3)= 10^-6;
 OPTIONS(7)= 0; OPTIONS(14)= 1000; OPTIONS(18)= 1; 
-x = steep_desc('grad',[-3,2]',OPTIONS)
+x = steep_desc('grad',[-2,2]',OPTIONS)
 ```
 ```
 x = steep_desc('grad',[4,2,-1]',OPTIONS)
