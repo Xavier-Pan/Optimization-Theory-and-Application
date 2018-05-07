@@ -11,8 +11,9 @@
 **OPTIONS(7)**:whether using secant method to find the best step size (1=no,0=yes)  
 **OPTIONS(14)**: max iteration (1000)  
 **OPTIONS(18)**: fixed step size (1)  
-**LM_newton_method(x_0,OPTIONS)**:  
+**conj_grad('function name',x_0,OPTIONS)**:  
 ```
+    'function name': pass a function to a function 
     x_0: means initial point to start optimization  
     OPTIONS: use to pass some parameter as OPTIONS use to pass some parameter as described above.  
 ```
