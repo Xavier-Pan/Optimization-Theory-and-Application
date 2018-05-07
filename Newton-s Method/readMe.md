@@ -16,6 +16,7 @@
 ***
 **Please implement following lines:**
 ``` Matlab
-OPTIONS=zeros(18,1); OPTIONS(1)= 1 ; OPTIONS(2)= 10^-4; OPTIONS(3)= 10^-6; OPTIONS(14)= 1000; OPTIONS(18)= 1; 
+OPTIONS=zeros(18,1); OPTIONS(1)= 1 ; OPTIONS(2)= 10^-4; OPTIONS(3)= 10^-6; 
+OPTIONS(14)= 1000; OPTIONS(18)= 1; 
 OPTIONS(7)= 1; x = newton_method('grad','Hess',[3 -1 0 1]',OPTIONS)
 ```
