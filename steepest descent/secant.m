@@ -5,6 +5,7 @@ function alpha = secant(grad,xcurr,d)
 % g1: gradient of previous plpha
 % alpha0: previous plpha
 % alpha1: current alpha
+close
 epsilen = 10^-5;
 alpha0 = 0;
 alpha1 = .001;
