@@ -11,6 +11,7 @@
 **OPTIONS(7)**:whether using secant method to find the best step size (1=no,0=yes)  
 **OPTIONS(14)**: max iteration (1000)  
 **OPTIONS(18)**: fixed step size (1)  
+***
 **conj_grad('function name',x_0,OPTIONS)**:  
 ```
     'function name': pass a function to a function 
