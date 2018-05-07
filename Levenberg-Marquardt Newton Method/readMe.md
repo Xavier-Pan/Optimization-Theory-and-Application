@@ -13,8 +13,9 @@ LM_newton_method(x_0,OPTIONS):
   x_0 means initial point to start optimization  
   OPTIONS use to pass some parameter as OPTIONS use to pass some parameter as described above.  
 ***
-Please implement following two lines:
+Please implement following lines:
 ``` Matlab
-OPTIONS=zeros(18,1); OPTIONS(1)= 1 ; OPTIONS(2)= 10^-4; OPTIONS(3)= 10^-6;OPTIONS(7)= 1; OPTIONS(14)= 1000; OPTIONS(18)= 1; 
+OPTIONS=zeros(18,1); OPTIONS(1)= 1 ; OPTIONS(2)= 10^-4; OPTIONS(3)= 10^-6;
+OPTIONS(7)= 1; OPTIONS(14)= 1000; OPTIONS(18)= 1; 
 OPTIONS(5) = 1; x = LM_newton_method([-3 3]',OPTIONS)
 ```
